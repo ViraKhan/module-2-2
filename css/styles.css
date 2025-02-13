@@ -186,7 +186,6 @@ padding-bottom: 120px;
    gap: 24px;
 }
 .advantages-list {
-   margin-right: 24px;
    width: calc((100% - 72px) / 4); 
 }
 
@@ -329,8 +328,8 @@ color: #434455;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
-   display: inline-block;
    margin-bottom: 16px;
+   display: inline-block;
 }
 .logo-text-footer {
    color: #f4f4fd;
