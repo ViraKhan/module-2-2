@@ -35,11 +35,10 @@ align-items: center;
 .header-main {
    border-bottom: 1px solid #e7e9fc
 }
-.container-nav {
-   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+.header-main .container {
+align-items: flex-start;
+justify-content: space-between;
+flex-direction: row;
 }
 .header-size {
 display: flex;
@@ -99,7 +98,6 @@ padding-bottom: 24px;
    justify-content: flex-start;
    flex-direction: row;
    gap: 40px;
-   margin: 0 auto;
 }
 .contact-info {
    display: flex;
@@ -328,7 +326,9 @@ color: #434455;
 .logo-text-footer {
    color: #f4f4fd;
 }
-
+.section-footer .container {
+   align-items: flex-start;
+}
 .section-footer-descr {
    max-width: 264px;
    font-family: "Roboto", sans-serif;
