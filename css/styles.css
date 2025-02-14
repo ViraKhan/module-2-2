@@ -24,7 +24,6 @@
       ;
    }
 .container { 
-display: flex;
 margin: 0 auto;
 width: 1158px;
 padding: 0 15px;
@@ -39,6 +38,7 @@ align-items: center;
 align-items: flex-start;
 justify-content: space-between;
 flex-direction: row;
+display: flex;
 }
 .header-size {
 display: flex;
@@ -122,6 +122,7 @@ text-align: center;
 padding: 188px 0;
 
 }
+
 .hero-section-header {
    font-size: 56px;
    line-height: 1.07;
@@ -131,7 +132,9 @@ padding: 188px 0;
    max-width: 496px;
    margin: 0 auto;
 }
-
+.hero-btn .container {
+   display: flex;
+}
 .hero-btn {
    font-family: "Roboto", sans-serif;
    font-weight: 500;
